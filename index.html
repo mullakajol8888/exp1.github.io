@@ -1,0 +1,94 @@
+<Doctype html>
+    <head>
+        <title>
+            EXP 1
+        </title>
+    </head>
+    <style>
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    </style>
+    <Body>
+        <center>
+        <h2>Experiment No 1 </h2></center>
+        <div class="row">
+  <div class="column" style="background-color:rgb(253, 252, 252);">
+    <center><h2>Types of Cars and their Mileage</h2>
+   
+    <table>
+        <tr>
+          <th>Car Name</th>
+          <th>Mileage</th>
+        </tr>
+        <tr>
+         <td>Lamborghini Aventador</td>
+         <td>351 KMPH</td>
+        </tr>
+        <tr>
+          <td>Ferrari 812 Superfast</td>
+          <td>340 KMPH</td>
+        </tr>
+        <tr>
+            <td>Audi R8</td>
+            <td> 330 KMPH</td>
+           </tr>
+        <tr>
+            <td>Bentley Continental GT</td>
+            <td>327 KMPH</td>
+        </tr>
+        <tr>
+            <td>Lamborghini Huracan EVO</td>
+            <td>325 KMPH</td>
+        </tr>
+      </table></center>
+     
+    </div>
+    
+  <div class="column" style="background-color:rgb(255, 254, 254);">
+    
+    <h2>Types of Coffee</h2>
+<ol>
+  <li>Espresso</li>
+  <li>Double Espresso.</li>
+  <li>Red Eye</li>
+  <li>Black Eye</li>
+  <li>Americano</li>
+  <li>Long Black</li>
+  <li>Macchiato</li>
+  <li>Long Macchiato</li>
+</ol>  
+
+  </div>
+</div>
+ 
+</Body>
+
